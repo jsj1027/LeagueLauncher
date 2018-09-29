@@ -15,6 +15,8 @@ public:
     void setLeagueOnline(bool leagueOnline);
 
     void checkSystemProcesses();
+
+    void readProcesses();
 };
 
 

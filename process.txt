@@ -1,31 +1,28 @@
 
 Image Name                     PID Session Name        Session#    Mem Usage
 ========================= ======== ================ =========== ============
-Registry                        96 Services                   0     45,748 K
-dwm.exe                          8 Console                    1     50,148 K
-svchost.exe                   1452 Services                   0     90,940 K
-Memory Compression            1612 Services                   0    586,256 K
-svchost.exe                   7240 Services                   0     43,832 K
-explorer.exe                  4736 Console                    1    115,000 K
-ShellExperienceHost.exe       6484 Console                    1     92,896 K
-SearchUI.exe                  8028 Console                    1     78,640 K
-SearchIndexer.exe             3872 Services                   0     44,016 K
-chrome.exe                    9272 Console                    1    141,728 K
-chrome.exe                    8976 Console                    1    120,916 K
-chrome.exe                    2240 Console                    1     44,856 K
-chrome.exe                    6744 Console                    1     46,012 K
-chrome.exe                    7656 Console                    1     59,376 K
-chrome.exe                   12064 Console                    1     45,596 K
-chrome.exe                   10888 Console                    1     46,548 K
-clion64.exe                   7052 Console                    1  1,146,468 K
-chrome.exe                   13172 Console                    1     41,628 K
-SystemSettings.exe            3868 Console                    1     44,912 K
-clangd.exe                    6900 Console                    1     50,424 K
-Taskmgr.exe                   8688 Console                    1     42,804 K
-explorer.exe                 10408 Console                    1     49,916 K
-chrome.exe                   11952 Console                    1     57,872 K
-svchost.exe                   3048 Services                   0     83,944 K
-TiWorker.exe                  4116 Services                   0    248,732 K
-OfficeClickToRun.exe         11300 Services                   0     70,788 K
-OfficeClickToRun.exe         13740 Services                   0     76,836 K
-chrome.exe                   12524 Console                    1     68,680 K
+svchost.exe                   1452 Services                   0     83,840 K
+Memory Compression            1612 Services                   0    224,504 K
+svchost.exe                   7240 Services                   0     56,576 K
+nortonsecurity.exe           10600 Services                   0     66,128 K
+OfficeClickToRun.exe         13740 Services                   0     50,360 K
+dwm.exe                      13472 Console                    2     52,204 K
+explorer.exe                 10076 Console                    2    107,644 K
+ShellExperienceHost.exe       8860 Console                    2     90,988 K
+nortonsecurity.exe            1660 Console                    2     44,972 K
+MicrosoftEdge.exe            11452 Console                    2     47,584 K
+SearchUI.exe                 12184 Console                    2    148,328 K
+clion64.exe                   9516 Console                    2  1,233,240 K
+CNQMSWCS.EXE                  1152 Console                    2     60,980 K
+clangd.exe                    3376 Console                    2     50,524 K
+OneDrive.exe                  6924 Console                    2     53,260 K
+chrome.exe                   10816 Console                    2    111,748 K
+chrome.exe                    1264 Console                    2     91,492 K
+chrome.exe                    4724 Console                    2     50,484 K
+chrome.exe                   10336 Console                    2     60,272 K
+chrome.exe                    8636 Console                    2     59,248 K
+chrome.exe                   11892 Console                    2     42,888 K
+chrome.exe                    5300 Console                    2     75,980 K
+svchost.exe                   5292 Services                   0     53,912 K
+chrome.exe                   12620 Console                    2     57,172 K
+SystemSettings.exe            2660 Console                    2     45,888 K
