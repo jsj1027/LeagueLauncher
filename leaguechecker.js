@@ -11,10 +11,6 @@ this.setLeagueOnline = function (mode) {
         throw Error('Somehow got non boolean for league online, closing now');
     }
 }
-this.processes = findProcess("name", "discord", false)
-    .then(function (list) {
-        return utils.prettystring(list);
-    });
 
 function check() {
     findProcess("name", "Discord", false)

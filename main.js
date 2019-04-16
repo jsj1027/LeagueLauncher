@@ -2,7 +2,8 @@ const leaguechecker = require('./leaguechecker');
 const utils = require('./utils');
 function main() {
     console.log(`Hello world`);
-    console.log(`${leaguechecker.processes}`);
+    leaguechecker.check()
+        .then(function(result){console.log(result)});
 }
 
 main();
