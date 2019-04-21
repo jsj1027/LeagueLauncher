@@ -1,24 +1,33 @@
-const utils = require('./utils');
+const utils = require('./utils.js');
 const findProcess = require('find-process');
 
-this.leagueOnline = false;
-this.getLeagueOnline = function () { return this.leagueOnline };
-this.setLeagueOnline = function (mode) {
+
+/**
+ * Check if league of legends is running
+ * @param {boolean} leagueOnline - If league of legends is online
+ */
+function LeagueChecker() {
+  this.status = false;
+}
+
+LeagueChecker.prototype = {
+  getStatus: function() {
+    return utils.prettystring(this.status);
+  },
+
+  setStatus: function(mode) {
     if (utils.isBoolean(mode)) {
-        this.leagueOnline = mode;
+      this.status = mode;
+    } else {
+      throw typeError('Non boolean for league online, closing now');
     }
-    else {
-        throw Error('Somehow got non boolean for league online, closing now');
-    }
-}
-
-function check() {
-    findProcess("name", "Discord", false)
-        .then(function (list) {
-            return utils.prettystring(list);
+  },
+  check: function() {
+    findProcess('name', 'Discord', false)
+        .then(function(result) {
+          return utils.prettystring(result);
         });
-}
+  },
+};
 
-module.exports = {
-    check
-}
+module.exports = LeagueChecker;

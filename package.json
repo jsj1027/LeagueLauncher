@@ -1,0 +1,26 @@
+{
+  "name": "leaguelauncher",
+  "version": "0.0.1",
+  "description": " Get that League Launcher",
+  "main": "main.js",
+  "dependencies": {
+    "find-process": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsj1027/LeagueLauncher.git"
+  },
+  "author": "Javis Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsj1027/LeagueLauncher/issues"
+  },
+  "homepage": "https://github.com/jsj1027/LeagueLauncher#readme"
+}
