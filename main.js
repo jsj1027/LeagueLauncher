@@ -1,5 +1,5 @@
 const LeagueChecker = require('./leagueChecker');
-
+  
 function main() {
   console.log(`Hello world`);
   const Hi = new LeagueChecker();

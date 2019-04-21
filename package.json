@@ -4,7 +4,8 @@
   "description": " Get that League Launcher",
   "main": "main.js",
   "dependencies": {
-    "find-process": "^1.4.1"
+    "find-process": "^1.4.1",
+    "yaml": "^1.5.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
